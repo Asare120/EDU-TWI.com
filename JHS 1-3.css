@@ -1,5 +1,8 @@
-body{
-    background-color: floralwhite;
+@import url('https://asare120.github.io/EDU-TWI.com/'){
+    margin:0;
+    padding:0;
+    box sizing: border boxes;
+    font-family:'poppins',sans-serif;
 }
 
 .links{
@@ -10,10 +13,11 @@ body{
 
 .links > a{
     text-decoration: none;
-    color: #8a8a8a;
+    color: black;
     padding: 5px;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
+    text-align: center;
 }
 
 .links > a:hover{
@@ -21,8 +25,17 @@ body{
     border-bottom: 2px solid black;
 }
 
-h1{
-    text-align: center;
+p{
+    text-align: left;
     font-family: monospace;
-    font-size: 90px;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: left;
+    text-align: justify-all;
+}
+
+#JHS1-3{
+    text-align: center;
 }

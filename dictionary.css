@@ -1,5 +1,5 @@
 body{
-    background-color: floralwhite;
+    background-color: burlywood;
 }
 
 .links{
@@ -14,6 +14,7 @@ body{
     padding: 5px;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
+    text-align: center;
 }
 
 .links > a:hover{
@@ -24,5 +25,11 @@ body{
 h1{
     text-align: center;
     font-family: monospace;
-    font-size: 90px;
+    font-size: 100px;
 }
+
+p{
+    font font-size: 49px;
+     
+}
+
