@@ -1,0 +1,39 @@
+.links{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.links > a{
+    text-decoration: none;
+    color: #8a8a8a;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+    text-align: center;
+}
+
+.links > a:hover{
+    color: darkgoldenrod;
+    border-bottom: 2px solid black;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 90px;
+}
+
+p{
+    font font-size: 31px;
+     
+}
+
+a :hover{
+    color: darkgoldenrod;
+    border-bottom: 3px solid black;
+}
+
+background{
+    background-image: url(images/background-.jpg);
+}
