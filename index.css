@@ -72,6 +72,28 @@ p{
 h1{
     text-align:center;
 }
-.links{
-    text-align: center;
+#Class 2{
+    text-align:center;
+	font-family: monospace;
+}
+
+Class 3 > h1{
+    text-align: right;
+    font-family: monospace;
+}
+
+body{
+	background-color: aqua;
+	background-image: url(images/background-.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+script{
+	line-height: 100px;
+}
+
+#img{
+	height: 500px 500px;
+	
 }

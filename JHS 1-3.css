@@ -39,3 +39,68 @@ h1{
 #JHS1-3{
     text-align: center;
 }
+
+p{
+	font-family: monospace;
+	font-size: 20px;
+}
+
+h2{
+	text-align: left;
+}
+
+#tooltip{
+	position:relative;
+	cursor: pointer;
+	border-bottom: 2px;
+	padding: 7px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+#tooltipText{
+	position: absolute;
+	left: 50%;
+	top:0;
+	transform: translateX(-50%);
+	background-color: #000;
+	color: #fff;
+	white-space: nowrap;
+	padding: 10px 15px;
+	border-radius: 7px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#tooltipText::before{
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	transform: translateX(-50%);
+	border: 15px solid;
+	border-color: #000 #0000 #0000 #0000;
+	
+}
+
+#tooltip:hover #tooltipText{
+	top: -130%;
+	visibility: visible;
+	opacity: 1;
+}
+
+.box{
+	background-image: url(..background_files/images(5);
+	padding: 200px 100px;
+	margin: 100px;
+	background-repeat: no-repeat;
+}
+
+body{
+	background-color: aqua;
+	background-image: url(images/images%205.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

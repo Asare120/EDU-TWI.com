@@ -26,3 +26,7 @@ h1{
     font-family: monospace;
     font-size: 90px;
 }
+
+p{
+	text-decoration-line: line-through;
+}
