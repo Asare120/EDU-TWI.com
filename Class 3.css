@@ -42,3 +42,11 @@ background{
 Home{
 	text-align: left;
 }
+
+body{
+	background-image: url(images/modern-gold-background-free-vector.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
