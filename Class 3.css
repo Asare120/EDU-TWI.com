@@ -39,14 +39,17 @@ background{
     background-image: url(images/background-.jpg);
 }
 
-Home{
+#Home{
 	text-align: left;
 }
 
 body{
-	background-image: url(images/modern-gold-background-free-vector.jpg);
+	background-image:url(images/image20101.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 
+.links{
+	color:azure;
+}
